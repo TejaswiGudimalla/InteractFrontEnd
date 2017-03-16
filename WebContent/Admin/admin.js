@@ -16,6 +16,7 @@ app.controller('adminctrl', [ '$scope', '$http',function($scope, $http) {
 			alert("Error");
 		});
 	};
+	//$location.path()
 	$scope.acceptblog=function(id){
 		$http({
 			method:'POST',
