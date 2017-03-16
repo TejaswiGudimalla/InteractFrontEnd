@@ -1,7 +1,7 @@
 app.controller('UserController', [ '$http', '$scope', 'UserService',
 		'$location', '$rootScope', '$cookieStore',
 		function($http, $scope, UserService, $location, $rootScope, $cookieStore) {
-			console.log('LoginController');
+			console.log('LoginControler');
 			var BASE_URL = 'http://localhost:8081/InteractBackEnd';
 
 			var self = this;
