@@ -1,5 +1,5 @@
 app.controller('userctrl', [ '$scope', '$http','$rootScope','$cookieStore', function($scope, $http,$rootScope,$cookieStore) {
-		var BASE_URL ='http://localhost:8081/CareerSiteBackend';
+		var BASE_URL ='http://localhost:8081/InteractBackEnd';
 
 	$scope.submit = function() {
 		
