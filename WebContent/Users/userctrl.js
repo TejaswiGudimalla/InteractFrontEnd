@@ -6,7 +6,7 @@ app.controller('userctrl', [ '$scope', '$http','$rootScope','$cookieStore', func
 		$scope.users = {	
 			
 			username : $scope.username,
-			mail:$scope.mail,
+			email:$scope.email,
 			password:$scope.password,
 			mobile : $scope.mobile,
 			dob:$scope.dob,
@@ -20,7 +20,7 @@ app.controller('userctrl', [ '$scope', '$http','$rootScope','$cookieStore', func
 			data : $scope.users
 		}).success(function(data, status, headers, config) {
 			$scope.username='';
-			$scope.mail='';
+			$scope.email='';
 			$scope.password='';
 			$scope.mobile='';
 			$scope.dob='';
